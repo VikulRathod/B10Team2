@@ -1,0 +1,14 @@
+F:\Vikul\GITHUB\B10Team2\OnlineStore\MyApp.DAL\bin\Debug\MyApp.DAL.dll
+F:\Vikul\GITHUB\B10Team2\OnlineStore\MyApp.DAL\bin\Debug\MyApp.DAL.pdb
+F:\Vikul\GITHUB\B10Team2\OnlineStore\MyApp.DAL\bin\Debug\MyApp.Models.dll
+F:\Vikul\GITHUB\B10Team2\OnlineStore\MyApp.DAL\bin\Debug\MyApp.Models.pdb
+F:\Vikul\GITHUB\B10Team2\OnlineStore\MyApp.DAL\obj\Debug\Cab.DAL.csprojResolveAssemblyReference.cache
+F:\Vikul\GITHUB\B10Team2\OnlineStore\MyApp.DAL\obj\Debug\MyApp.DAL.dll
+F:\Vikul\GITHUB\B10Team2\OnlineStore\MyApp.DAL\obj\Debug\MyApp.DAL.pdb
+F:\Vikul\GITHUB\B10Team2\Cab\Cab.DAL\bin\Debug\MyApp.DAL.dll
+F:\Vikul\GITHUB\B10Team2\Cab\Cab.DAL\bin\Debug\MyApp.DAL.pdb
+F:\Vikul\GITHUB\B10Team2\Cab\Cab.DAL\bin\Debug\MyApp.Models.dll
+F:\Vikul\GITHUB\B10Team2\Cab\Cab.DAL\bin\Debug\MyApp.Models.pdb
+F:\Vikul\GITHUB\B10Team2\Cab\Cab.DAL\obj\Debug\Cab.DAL.csprojResolveAssemblyReference.cache
+F:\Vikul\GITHUB\B10Team2\Cab\Cab.DAL\obj\Debug\MyApp.DAL.dll
+F:\Vikul\GITHUB\B10Team2\Cab\Cab.DAL\obj\Debug\MyApp.DAL.pdb

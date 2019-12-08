@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cab.Presentation", "1-Authentication\Cab.Presentation.csproj", "{85102E5F-A2E5-49E5-BBBF-A2BFCDE916AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cab.Presentation", "Cab.Presentation\Cab.Presentation.csproj", "{85102E5F-A2E5-49E5-BBBF-A2BFCDE916AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cab.DAL", "MyApp.DAL\Cab.DAL.csproj", "{C8FCF8ED-D4B9-41CD-9E24-441F229310B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cab.DAL", "Cab.DAL\Cab.DAL.csproj", "{C8FCF8ED-D4B9-41CD-9E24-441F229310B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cab.BLL", "MyApp.BLL\Cab.BLL.csproj", "{980CE0F2-8468-4B2E-B109-F668714C5C41}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cab.BLL", "Cab.BLL\Cab.BLL.csproj", "{980CE0F2-8468-4B2E-B109-F668714C5C41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cab.Models", "MyApp.Models\Cab.Models.csproj", "{F3BF320F-28ED-4988-9205-FCA643B896AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cab.Models", "Cab.Models\Cab.Models.csproj", "{F3BF320F-28ED-4988-9205-FCA643B896AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cab.Utility", "MyApp.Utility\Cab.Utility.csproj", "{FFA3108B-7126-4DBC-95CC-F092FE59625B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cab.Utility", "Cab.Utility\Cab.Utility.csproj", "{FFA3108B-7126-4DBC-95CC-F092FE59625B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
