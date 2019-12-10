@@ -1,0 +1,14 @@
+E:\GitHubYogsh\Cab\Cab.Presentation\bin\1-Authentication.dll.config
+E:\GitHubYogsh\Cab\Cab.Presentation\bin\1-Authentication.dll
+E:\GitHubYogsh\Cab\Cab.Presentation\bin\1-Authentication.pdb
+E:\GitHubYogsh\Cab\Cab.Presentation\bin\MyApp.BLL.dll
+E:\GitHubYogsh\Cab\Cab.Presentation\bin\MyApp.Models.dll
+E:\GitHubYogsh\Cab\Cab.Presentation\bin\MyApp.Utility.dll
+E:\GitHubYogsh\Cab\Cab.Presentation\bin\MyApp.DAL.dll
+E:\GitHubYogsh\Cab\Cab.Presentation\bin\MyApp.BLL.pdb
+E:\GitHubYogsh\Cab\Cab.Presentation\bin\MyApp.Models.pdb
+E:\GitHubYogsh\Cab\Cab.Presentation\bin\MyApp.Utility.pdb
+E:\GitHubYogsh\Cab\Cab.Presentation\bin\MyApp.DAL.pdb
+E:\GitHubYogsh\Cab\Cab.Presentation\obj\Debug\Cab.Presentation.csprojResolveAssemblyReference.cache
+E:\GitHubYogsh\Cab\Cab.Presentation\obj\Debug\1-Authentication.dll
+E:\GitHubYogsh\Cab\Cab.Presentation\obj\Debug\1-Authentication.pdb

@@ -1,0 +1,9 @@
+E:\GitHubYogsh\Cab\Cab.BLL\bin\Debug\MyApp.BLL.dll
+E:\GitHubYogsh\Cab\Cab.BLL\bin\Debug\MyApp.BLL.pdb
+E:\GitHubYogsh\Cab\Cab.BLL\bin\Debug\MyApp.DAL.dll
+E:\GitHubYogsh\Cab\Cab.BLL\bin\Debug\MyApp.Models.dll
+E:\GitHubYogsh\Cab\Cab.BLL\bin\Debug\MyApp.DAL.pdb
+E:\GitHubYogsh\Cab\Cab.BLL\bin\Debug\MyApp.Models.pdb
+E:\GitHubYogsh\Cab\Cab.BLL\obj\Debug\Cab.BLL.csprojResolveAssemblyReference.cache
+E:\GitHubYogsh\Cab\Cab.BLL\obj\Debug\MyApp.BLL.dll
+E:\GitHubYogsh\Cab\Cab.BLL\obj\Debug\MyApp.BLL.pdb
