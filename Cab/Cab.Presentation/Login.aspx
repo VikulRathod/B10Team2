@@ -16,7 +16,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>User Name
+                    <td>UserName
                     </td>
                     <td>:<asp:TextBox ID="txtUserName" runat="server">
                     </asp:TextBox>
@@ -44,8 +44,9 @@
             </table>
 
             <br />
-            <a href="Registration/ResetPassword.aspx">Forgot Password</a> | 
-            <a href="Registration/Register.aspx">Click here to register</a>
+            <a href="Registration/ResetPassword.aspx">Forgot Password</a> !! 
+            <a href="Registration/Register.aspx">Click here to register</a> !!
+          
             if you do not have a user name and password.
         </div>
     </form>

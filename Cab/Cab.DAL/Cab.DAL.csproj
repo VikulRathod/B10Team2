@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminData.cs" />
     <Compile Include="AuthenticationData.cs" />
+    <Compile Include="DriverData.cs" />
     <Compile Include="ExecuteHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Cab/Cab.BLL/obj/Debug
+/Cab/Cab.BLL/bin/Debug
+/Cab/Cab.DAL/obj/Debug
+/Cab/Cab.DAL/bin/Debug
+/Cab/Cab.Models/obj/Debug
+/Cab/Cab.Models/bin/Debug
+/Cab/Cab.Presentation/obj/Debug
+/Cab/Cab.Presentation/bin
+/Cab/Cab.Utility/obj/Debug
+/Cab/Cab.Utility/bin/Debug
+/Cab/Cab.Presentation/Images/Driver1.jpg
+/Cab/.vs/Cab/v14
