@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace Cab.Models
 {
-    public class User
+   public class User
     {
-        public string UserName { get; set; }
+        public string  UserName { get; set; }
         public string Password { get; set; }
         public int RetryAttempts { get; set; }
         public bool IsAuthenticated { get; set; }
         public bool IsAccountLocked { get; set; }
+
+        public string CityName { get; set; }
     }
 }
