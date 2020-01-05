@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,5 +14,6 @@ namespace Cab.Models
         public int RetryAttempts { get; set; }
         public bool IsAuthenticated { get; set; }
         public bool IsAccountLocked { get; set; }
+        public List<addCityName> CityName { get; set; }
     }
 }

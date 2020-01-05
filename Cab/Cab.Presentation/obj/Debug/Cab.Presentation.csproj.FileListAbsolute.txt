@@ -12,3 +12,7 @@ E:\GitHubYogsh\Cab\Cab.Presentation\bin\MyApp.DAL.pdb
 E:\GitHubYogsh\Cab\Cab.Presentation\obj\Debug\Cab.Presentation.csprojResolveAssemblyReference.cache
 E:\GitHubYogsh\Cab\Cab.Presentation\obj\Debug\1-Authentication.dll
 E:\GitHubYogsh\Cab\Cab.Presentation\obj\Debug\1-Authentication.pdb
+E:\GitHubYogsh\Cab\Cab.Presentation\bin\EntityFramework.dll
+E:\GitHubYogsh\Cab\Cab.Presentation\bin\EntityFramework.SqlServer.dll
+E:\GitHubYogsh\Cab\Cab.Presentation\bin\EntityFramework.xml
+E:\GitHubYogsh\Cab\Cab.Presentation\bin\EntityFramework.SqlServer.xml

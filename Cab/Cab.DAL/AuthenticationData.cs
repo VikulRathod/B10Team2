@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace Cab.DAL
 {
+   
     public class AuthenticationData
     {
         public User AuthenticateUser(User user)
@@ -41,7 +42,10 @@ namespace Cab.DAL
                 return userInfo;
             }
         }
+        public void Chnange()
+        {
 
+        }
         public bool IsPasswordResetLinkValid(string uid)
         {
             List<SqlParameter> paramList = new List<SqlParameter>()
