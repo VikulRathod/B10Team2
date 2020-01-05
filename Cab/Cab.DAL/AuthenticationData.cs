@@ -14,6 +14,7 @@ namespace Cab.DAL
     {
         public User AuthenticateUser(User user)
         {
+			string name = "";
             User userInfo = new User() { UserName = user.UserName, Password = user.Password };
 
             string CS = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
