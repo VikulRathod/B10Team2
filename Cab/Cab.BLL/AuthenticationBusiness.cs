@@ -1,7 +1,9 @@
 ﻿using Cab.DAL;
 using Cab.Models;
+using MyApp.Models;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,6 +28,26 @@ namespace Cab.BLL
         {
             AuthenticationData dal = new AuthenticationData();
             return dal.ChangeUserPassword(uid, newPwd);
+        }
+        public List<User> GetDropDownCities()
+        {
+            AuthenticationData dal = new AuthenticationData();
+            return dal.GetDropDownCities();
+        }
+        public List<Admin> GetDropDownListStatus()
+        {
+            AuthenticationData dal = new AuthenticationData();
+            return dal.GetDropDownListStatus();
+        }
+        //public List<ShowBookings> ShowBookingsByStatus()
+        //{
+        //    AuthenticationData dal = new AuthenticationData();
+        //   return dal.ShowBookingsByStatus();
+        //}
+        public DataSet GetDetailsByStatus(string SelectStatusName)
+        {
+            AuthenticationData dal = new AuthenticationData();
+            return dal.GetDetailsByStatus( SelectStatusName);
         }
     }
 }

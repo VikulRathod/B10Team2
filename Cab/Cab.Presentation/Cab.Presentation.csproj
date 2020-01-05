@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -58,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AccessDenied.aspx" />
+    <Content Include="ADMIN\ViewBookings.aspx" />
     <Content Include="LockedAccounts.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Registration\ChangePassword.aspx" />
@@ -65,7 +67,9 @@
     <Content Include="Registration\Register.aspx" />
     <Content Include="Registration\ResetPassword.aspx" />
     <Content Include="SQLScripts\SQLScripts.txt" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Welcome.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +79,13 @@
     </Compile>
     <Compile Include="AccessDenied.aspx.designer.cs">
       <DependentUpon>AccessDenied.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\ViewBookings.aspx.cs">
+      <DependentUpon>ViewBookings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ADMIN\ViewBookings.aspx.designer.cs">
+      <DependentUpon>ViewBookings.aspx</DependentUpon>
     </Compile>
     <Compile Include="LockedAccounts.aspx.cs">
       <DependentUpon>LockedAccounts.aspx</DependentUpon>
@@ -89,6 +100,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration\ChangePassword.aspx.cs">
@@ -129,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Registration\Web.config" />
+    <Content Include="MasterPage.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
