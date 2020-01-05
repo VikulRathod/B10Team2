@@ -13,5 +13,6 @@ namespace Cab.Models
         public int RetryAttempts { get; set; }
         public bool IsAuthenticated { get; set; }
         public bool IsAccountLocked { get; set; }
+        public string CityName { get; set; }
     }
 }
