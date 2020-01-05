@@ -12,3 +12,17 @@ E:\GitHubYogsh\Cab\Cab.Presentation\bin\MyApp.DAL.pdb
 E:\GitHubYogsh\Cab\Cab.Presentation\obj\Debug\Cab.Presentation.csprojResolveAssemblyReference.cache
 E:\GitHubYogsh\Cab\Cab.Presentation\obj\Debug\1-Authentication.dll
 E:\GitHubYogsh\Cab\Cab.Presentation\obj\Debug\1-Authentication.pdb
+D:\projects\GitHubProject\Cab\Cab.Presentation\obj\Debug\Cab.Presentation.csprojResolveAssemblyReference.cache
+D:\projects\GitHubProject\Cab\Cab.Presentation\obj\Debug\1-Authentication.dll
+D:\projects\GitHubProject\Cab\Cab.Presentation\obj\Debug\1-Authentication.pdb
+D:\projects\GitHubProject\Cab\Cab.Presentation\bin\1-Authentication.dll.config
+D:\projects\GitHubProject\Cab\Cab.Presentation\bin\1-Authentication.dll
+D:\projects\GitHubProject\Cab\Cab.Presentation\bin\1-Authentication.pdb
+D:\projects\GitHubProject\Cab\Cab.Presentation\bin\MyApp.BLL.dll
+D:\projects\GitHubProject\Cab\Cab.Presentation\bin\MyApp.Models.dll
+D:\projects\GitHubProject\Cab\Cab.Presentation\bin\MyApp.Utility.dll
+D:\projects\GitHubProject\Cab\Cab.Presentation\bin\MyApp.DAL.dll
+D:\projects\GitHubProject\Cab\Cab.Presentation\bin\MyApp.BLL.pdb
+D:\projects\GitHubProject\Cab\Cab.Presentation\bin\MyApp.Models.pdb
+D:\projects\GitHubProject\Cab\Cab.Presentation\bin\MyApp.Utility.pdb
+D:\projects\GitHubProject\Cab\Cab.Presentation\bin\MyApp.DAL.pdb

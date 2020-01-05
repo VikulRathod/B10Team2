@@ -12,6 +12,8 @@ namespace Cab.DAL
 {
     public class AuthenticationData
     {
+
+        string s1 = string.Empty;
         public User AuthenticateUser(User user)
         {
             User userInfo = new User() { UserName = user.UserName, Password = user.Password };

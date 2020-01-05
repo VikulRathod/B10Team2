@@ -3,3 +3,8 @@ E:\GitHubYogsh\Cab\Cab.Models\bin\Debug\MyApp.Models.pdb
 E:\GitHubYogsh\Cab\Cab.Models\obj\Debug\Cab.Models.csprojResolveAssemblyReference.cache
 E:\GitHubYogsh\Cab\Cab.Models\obj\Debug\MyApp.Models.dll
 E:\GitHubYogsh\Cab\Cab.Models\obj\Debug\MyApp.Models.pdb
+D:\projects\GitHubProject\Cab\Cab.Models\bin\Debug\MyApp.Models.dll
+D:\projects\GitHubProject\Cab\Cab.Models\bin\Debug\MyApp.Models.pdb
+D:\projects\GitHubProject\Cab\Cab.Models\obj\Debug\Cab.Models.csprojResolveAssemblyReference.cache
+D:\projects\GitHubProject\Cab\Cab.Models\obj\Debug\MyApp.Models.dll
+D:\projects\GitHubProject\Cab\Cab.Models\obj\Debug\MyApp.Models.pdb

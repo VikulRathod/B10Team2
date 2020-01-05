@@ -3,3 +3,8 @@ E:\GitHubYogsh\Cab\Cab.Utility\bin\Debug\MyApp.Utility.pdb
 E:\GitHubYogsh\Cab\Cab.Utility\obj\Debug\Cab.Utility.csprojResolveAssemblyReference.cache
 E:\GitHubYogsh\Cab\Cab.Utility\obj\Debug\MyApp.Utility.dll
 E:\GitHubYogsh\Cab\Cab.Utility\obj\Debug\MyApp.Utility.pdb
+D:\projects\GitHubProject\Cab\Cab.Utility\bin\Debug\MyApp.Utility.dll
+D:\projects\GitHubProject\Cab\Cab.Utility\bin\Debug\MyApp.Utility.pdb
+D:\projects\GitHubProject\Cab\Cab.Utility\obj\Debug\Cab.Utility.csprojResolveAssemblyReference.cache
+D:\projects\GitHubProject\Cab\Cab.Utility\obj\Debug\MyApp.Utility.dll
+D:\projects\GitHubProject\Cab\Cab.Utility\obj\Debug\MyApp.Utility.pdb

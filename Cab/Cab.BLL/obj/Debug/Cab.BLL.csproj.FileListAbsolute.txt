@@ -7,3 +7,12 @@ E:\GitHubYogsh\Cab\Cab.BLL\bin\Debug\MyApp.Models.pdb
 E:\GitHubYogsh\Cab\Cab.BLL\obj\Debug\Cab.BLL.csprojResolveAssemblyReference.cache
 E:\GitHubYogsh\Cab\Cab.BLL\obj\Debug\MyApp.BLL.dll
 E:\GitHubYogsh\Cab\Cab.BLL\obj\Debug\MyApp.BLL.pdb
+D:\projects\GitHubProject\Cab\Cab.BLL\bin\Debug\MyApp.BLL.dll
+D:\projects\GitHubProject\Cab\Cab.BLL\bin\Debug\MyApp.BLL.pdb
+D:\projects\GitHubProject\Cab\Cab.BLL\bin\Debug\MyApp.DAL.dll
+D:\projects\GitHubProject\Cab\Cab.BLL\bin\Debug\MyApp.Models.dll
+D:\projects\GitHubProject\Cab\Cab.BLL\bin\Debug\MyApp.DAL.pdb
+D:\projects\GitHubProject\Cab\Cab.BLL\bin\Debug\MyApp.Models.pdb
+D:\projects\GitHubProject\Cab\Cab.BLL\obj\Debug\Cab.BLL.csprojResolveAssemblyReference.cache
+D:\projects\GitHubProject\Cab\Cab.BLL\obj\Debug\MyApp.BLL.dll
+D:\projects\GitHubProject\Cab\Cab.BLL\obj\Debug\MyApp.BLL.pdb
