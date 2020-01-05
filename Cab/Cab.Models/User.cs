@@ -15,5 +15,7 @@ namespace Cab.Models
         public bool IsAuthenticated { get; set; }
         public bool IsAccountLocked { get; set; }
         public List<addCityName> CityName { get; set; }
+
+        public int Mobile { get; set; }
     }
 }
