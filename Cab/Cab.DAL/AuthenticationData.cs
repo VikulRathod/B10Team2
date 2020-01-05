@@ -13,6 +13,7 @@ namespace Cab.DAL
    
     public class AuthenticationData
     {
+        public int MyProperty { get; set; } //add new property..
         public User AuthenticateUser(User user)
         {
             User userInfo = new User() { UserName = user.UserName, Password = user.Password };
@@ -41,10 +42,6 @@ namespace Cab.DAL
 
                 return userInfo;
             }
-        }
-        public void Chnange()
-        {
-
         }
         public bool IsPasswordResetLinkValid(string uid)
         {
