@@ -1,4 +1,5 @@
 ﻿using Cab.Models;
+using MyApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -12,7 +13,7 @@ namespace Cab.DAL
 {
     public class AuthenticationData
     {
-        public User AuthenticateUser(User user)
+        public User AuthenticateUser(User user,string s)
         {
             User userInfo = new User() { UserName = user.UserName, Password = user.Password };
 
@@ -73,5 +74,90 @@ namespace Cab.DAL
             };
             return new ExecuteHelper().ExecuteSP("spChangePassword", paramList);
         }
+        public List<User> GetDropDownCities()
+        {
+            List<User> cities = new List<User>();
+
+            string cs = ConfigurationManager.ConnectionStrings["VBVS"].ConnectionString;
+            SqlConnection con = new SqlConnection(cs);
+            SqlCommand cmd = new SqlCommand("spSelectCity", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            con.Open();
+
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                User c = new User();
+                //c.CityID = (int)reader["CityID"];
+                c.CityID =Convert.ToInt32(reader["CityID"]);
+                c.CityName = reader["CityName"].ToString();
+                cities.Add(c);
+            }
+            return cities;
+        }
+       
+        public List<Admin> GetDropDownListStatus()
+        {
+            List<Admin> status = new List<Admin>();
+
+            string cs = ConfigurationManager.ConnectionStrings["VBVS"].ConnectionString;
+            SqlConnection con = new SqlConnection(cs);
+            SqlCommand cmd = new SqlCommand("spSelectStatus", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            con.Open();
+            
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                Admin c = new Admin();
+                c.SelecteStatusID = (int)reader["SelecteStatusID"];
+                c.SelectStatusName = reader["SelectStatusName"].ToString();
+                status.Add(c);
+            }
+
+
+            return status;
+        }
+      
+        //public List<ShowBookings> ShowBookingsByStatus()
+        //{
+        //    //List<ShowBookings> showBook = new List<ShowBookings>();
+
+        //    //string cs = ConfigurationManager.ConnectionStrings["VBVS"].ConnectionString;
+        //    //SqlConnection con = new SqlConnection(cs);
+        //    //SqlCommand cmd = new SqlCommand("spViewDetailsBystatus", con);
+        //    //cmd.CommandType = CommandType.StoredProcedure;
+        //    //con.Open();
+        //    //SqlDataReader reader = cmd.ExecuteReader();
+        //    //while (reader.Read())
+        //    //{
+        //    //    ShowBookings sb = new ShowBookings();
+        //    //    sb.ShowID= (int)reader["ShowID"];
+        //    //    //sb.TypeName = reader["TypeName"].ToString();
+        //    //    //sb.PickUPDate =  (DateTime)reader["PickUPDate"];
+        //    //    //sb.PickUpTime =(DateTime) reader["PickUpTime"];
+        //    //    //sb.TravellerName = reader["TravellerName"].ToString();
+        //    //    //sb.PickUpLocality = reader["PickUpLocality"].ToString();
+        //    //    //sb.TravellerPhone = reader["TravellerPhone"].ToString();
+        //    //    //sb.StatusAdmin = reader["StatusAdmin"].ToString();
+        //    //    showBook.Add(sb);
+        //    //}
+        //    //return showBook;
+        //}
+        public DataSet GetDetailsByStatus(string SelectStatusName)
+        { 
+            string cs = ConfigurationManager.ConnectionStrings["VBVS"].ConnectionString;
+            SqlConnection con = new SqlConnection(cs);
+            SqlCommand cmd = new SqlCommand("spViewDetailsBystatus", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@Status", SelectStatusName);
+
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            adapter.Fill(ds);
+            return ds;
+        } 
+
     }
 }
